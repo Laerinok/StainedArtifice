@@ -19,6 +19,7 @@
       "loadFromProperties": "abstract/horizontalorientation"
     }
   ],
+ 
   "behaviors": [ { "name": "HorizontalOrientable" } ],
   "shapebytype": {
     "*-square-north": { "base": "block/stainedglass/1x1/stainedglass_square", "rotateY": 0 },
@@ -55,6 +56,7 @@
     "*-bd-west": { "base": "block/stainedglass/2x2/stainedglass_bd", "rotateY": 90 }
   },
   "texturesByType": {
+    // --- 1x1 BLOCKS ---
     "*-polishedrock-square-*": {
       "stone": { "base": "game:block/stone/polishedrock/{rock}" },
       "lead": { "base": "game:block/metal/plate/lead" },
@@ -79,31 +81,51 @@
       "stainedglass": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass" },
       "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass_sym" }
     },
+
+    // --- 1x2 BLOCKS (Specific rules to point to the correct folder) ---
+    "*-polishedrock-up-*": {
+      "stone": { "base": "game:block/stone/polishedrock/{rock}" },
+      "lead": { "base": "game:block/metal/plate/lead" },
+      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up" },
+      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up_sym" }
+    },
+    "*-polishedrock-down-*": {
+      "stone": { "base": "game:block/stone/polishedrock/{rock}" },
+      "lead": { "base": "game:block/metal/plate/lead" },
+      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down" },
+      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down_sym" }
+    },
+    "*-up-*": {
+      "stone": { "base": "game:block/stone/{style}/{rock}1" },
+      "lead": { "base": "game:block/metal/plate/lead" },
+      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up" },
+      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up_sym" }
+    },
+    "*-down-*": {
+      "stone": { "base": "game:block/stone/{style}/{rock}1" },
+      "lead": { "base": "game:block/metal/plate/lead" },
+      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down" },
+      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down_sym" }
+    },
+
+    // --- 2x2 BLOCKS (Catch-all for remaining HG, HD, BG, BD parts) ---
     "*-polishedrock-*": {
       "stone": { "base": "game:block/stone/polishedrock/{rock}" },
       "lead": { "base": "game:block/metal/plate/lead" },
       "stainedglass": { "base": "block/stainedglass/celestialcompass/2x2/stainedglass_{part}" },
-      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/2x2/stainedglass_{part}_sym" },
-      "stainedglass_up": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up" },
-      "stainedglass_up_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up_sym" },
-      "stainedglass_down": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down" },
-      "stainedglass_down_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down_sym" }
+      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/2x2/stainedglass_{part}_sym" }
     },
     "*": {
       "stone": { "base": "game:block/stone/{style}/{rock}1" },
       "lead": { "base": "game:block/metal/plate/lead" },
       "stainedglass": { "base": "block/stainedglass/celestialcompass/2x2/stainedglass_{part}" },
-      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/2x2/stainedglass_{part}_sym" },
-      "stainedglass_up": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up" },
-      "stainedglass_up_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up_sym" },
-      "stainedglass_down": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down" },
-      "stainedglass_down_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down_sym" }
+      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/2x2/stainedglass_{part}_sym" }
     }
   },
   "creativeinventory": {
     "general": [ "*-north" ],
     "construction": [ "*-north" ],
-    "thejoramiterelics": [ "*-north" ]
+    "stainedartifice": [ "*-north" ]
   },
   "blockmaterial": "Glass",
   "replaceable": 900,
