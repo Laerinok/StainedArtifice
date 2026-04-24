@@ -1,134 +1,122 @@
 [
   {
-    "ingredientPattern": "R,G",
+    "ingredientPattern": "RG,LP",
     "ingredients": {
-      "R": {
-        "type": "block",
-        "code": "game:cobblestone-*",
-        "name": "rock",
-        "allowedVariants": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
-      },
-      "G": {
-        "type": "block",
-        "code": "game:glass-plain"
-      }
+      "R": { "type": "block", "code": "game:cobblestone-{rock}" },
+      "G": { "type": "block", "code": "game:glassslab-plain-down-free" },
+      "L": { "type": "item", "code": "lead-cames" },
+      "P": { "type": "item", "code": "glasspattern-{pattern}", "returnedStack": { "type": "item", "code": "glasspattern-{pattern}" }}
+    },
+    "allowedVariants": {
+      "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
+      "pattern": [ "celestialcompass", "emerald" ]
     },
     "width": 2,
-    "height": 1,
+    "height": 2,
     "output": {
       "type": "block",
-      "code": "stainedglass-{rock}-cobblestone-square-north",
-      "quantity": 4
+      "code": "stainedglass-{pattern}-{rock}-cobblestone-square-north",
+      "quantity": 1
     }
   },
   {
-    "ingredientPattern": "R,G",
+    "ingredientPattern": "RG,LP",
     "ingredients": {
-      "R": {
-        "type": "block",
-        "code": "game:rockpolished-*",
-        "name": "rock",
-        "allowedVariants": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
-      },
-      "G": {
-        "type": "block",
-        "code": "game:glass-plain"
-      }
+      "R": { "type": "block", "code": "game:rockpolished-{rock}" },
+      "G": { "type": "block", "code": "game:glassslab-plain-down-free" },
+      "L": { "type": "item", "code": "lead-cames" },
+      "P": { "type": "item", "code": "glasspattern-{pattern}", "returnedStack": { "type": "item", "code": "glasspattern-{pattern}" }}
+    },
+    "allowedVariants": {
+      "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
+      "pattern": [ "celestialcompass", "emerald" ]
     },
     "width": 2,
-    "height": 1,
+    "height": 2,
     "output": {
       "type": "block",
-      "code": "stainedglass-{rock}-polishedrock-square-north",
-      "quantity": 4
+      "code": "stainedglass-{pattern}-{rock}-polishedrock-square-north",
+      "quantity": 1
     }
   },
   {
-    "ingredientPattern": "R,G",
+    "ingredientPattern": "RG,LP",
     "ingredients": {
-      "R": {
-        "type": "block",
-        "code": "game:stonebricks-*",
-        "name": "rock",
-        "allowedVariants": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
-      },
-      "G": {
-        "type": "block",
-        "code": "game:glass-plain"
-      }
+      "R": { "type": "block", "code": "game:stonebricks-{rock}" },
+      "G": { "type": "block", "code": "game:glassslab-plain-down-free" },
+      "L": { "type": "item", "code": "lead-cames" },
+      "P": { "type": "item", "code": "glasspattern-{pattern}", "returnedStack": { "type": "item", "code": "glasspattern-{pattern}" }}
+    },
+    "allowedVariants": {
+      "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
+      "pattern": [ "celestialcompass", "emerald" ]
     },
     "width": 2,
-    "height": 1,
+    "height": 2,
     "output": {
       "type": "block",
-      "code": "stainedglass-{rock}-brick-square-north",
-      "quantity": 4
+      "code": "stainedglass-{pattern}-{rock}-brick-square-north",
+      "quantity": 1
     }
   },
   {
-    "ingredientPattern": "G,R",
+    "ingredientPattern": "GR,LP",
     "ingredients": {
-      "R": {
-        "type": "block",
-        "code": "game:cobblestone-*",
-        "name": "rock",
-        "allowedVariants": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
-      },
-      "G": {
-        "type": "block",
-        "code": "game:glass-plain"
-      }
+      "R": { "type": "block", "code": "game:cobblestone-{rock}" },
+      "G": { "type": "block", "code": "game:glassslab-plain-down-free" },
+      "L": { "type": "item", "code": "lead-cames" },
+      "P": { "type": "item", "code": "glasspattern-{pattern}", "returnedStack": { "type": "item", "code": "glasspattern-{pattern}" }}
+    },
+    "allowedVariants": {
+      "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
+      "pattern": [ "celestialcompass", "emerald" ]
     },
     "width": 2,
-    "height": 1,
+    "height": 2,
     "output": {
       "type": "block",
-      "code": "stainedglass-{rock}-cobblestone-round-north",
-      "quantity": 4
+      "code": "stainedglass-{pattern}-{rock}-cobblestone-round-north",
+      "quantity": 1
     }
   },
   {
-    "ingredientPattern": "G,R",
+    "ingredientPattern": "GR,LP",
     "ingredients": {
-      "R": {
-        "type": "block",
-        "code": "game:rockpolished-*",
-        "name": "rock",
-        "allowedVariants": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
-      },
-      "G": {
-        "type": "block",
-        "code": "game:glass-plain"
-      }
+      "R": { "type": "block", "code": "game:rockpolished-{rock}" },
+      "G": { "type": "block", "code": "game:glassslab-plain-down-free" },
+      "L": { "type": "item", "code": "lead-cames" },
+      "P": { "type": "item", "code": "glasspattern-{pattern}", "returnedStack": { "type": "item", "code": "glasspattern-{pattern}" }}
+    },
+    "allowedVariants": {
+      "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
+      "pattern": [ "celestialcompass", "emerald" ]
     },
     "width": 2,
-    "height": 1,
+    "height": 2,
     "output": {
       "type": "block",
-      "code": "stainedglass-{rock}-polishedrock-round-north",
-      "quantity": 4
+      "code": "stainedglass-{pattern}-{rock}-polishedrock-round-north",
+      "quantity": 1
     }
   },
   {
-    "ingredientPattern": "G,R",
+    "ingredientPattern": "GR,LP",
     "ingredients": {
-      "R": {
-        "type": "block",
-        "code": "game:stonebricks-*",
-        "name": "rock",
-        "allowedVariants": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
-      },
-      "G": {
-        "type": "block",
-        "code": "game:glass-plain"
-      }
+      "R": { "type": "block", "code": "game:stonebricks-{rock}" },
+      "G": { "type": "block", "code": "game:glassslab-plain-down-free" },
+      "L": { "type": "item", "code": "lead-cames" },
+      "P": { "type": "item", "code": "glasspattern-{pattern}", "returnedStack": { "type": "item", "code": "glasspattern-{pattern}" }}
+    },
+    "allowedVariants": {
+      "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
+      "pattern": [ "celestialcompass", "emerald" ]
     },
     "width": 2,
-    "height": 1,
+    "height": 2,
     "output": {
       "type": "block",
-      "code": "stainedglass-{rock}-brick-round-north",
-      "quantity": 4
+      "code": "stainedglass-{pattern}-{rock}-brick-round-north",
+      "quantity": 1
     }
   }
 ]

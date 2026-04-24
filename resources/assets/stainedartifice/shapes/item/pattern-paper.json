@@ -1,0 +1,42 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+			"faces": {
+				"north": { "pattern": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "pattern": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "pattern": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "pattern": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "pattern": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "pattern": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "paper",
+					"from": [ 1.0, 0.0, 1.0 ],
+					"to": [ 15.0, 0.1, 15.0 ],
+					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+					"faces": {
+						"north": { "pattern": "#map-blank", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "autoUv": false },
+						"east": { "pattern": "#map-blank", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"south": { "pattern": "#map-blank", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"west": { "pattern": "#map-blank", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"up": { "pattern": "#map-blank", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"down": { "pattern": "#map-blank", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		}
+	]}

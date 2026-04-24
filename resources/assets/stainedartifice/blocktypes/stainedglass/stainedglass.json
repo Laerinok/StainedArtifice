@@ -2,6 +2,9 @@
   "code": "stainedglass",
   "class": "Block",
   "variantgroups": [
+    { 
+      "code": "pattern",
+      "states": [ "celestialcompass", "emerald" ] },
     {
       "code": "rock",
       "states": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
@@ -19,7 +22,9 @@
       "loadFromProperties": "abstract/horizontalorientation"
     }
   ],
- 
+  "handbook": {
+    "groupBy": [ "stainedglass-*" ]
+  },
   "behaviors": [ { "name": "HorizontalOrientable" } ],
   "shapebytype": {
     "*-square-north": { "base": "block/stainedglass/1x1/stainedglass_square", "rotateY": 0 },
@@ -56,75 +61,73 @@
     "*-bd-west": { "base": "block/stainedglass/2x2/stainedglass_bd", "rotateY": 90 }
   },
   "texturesByType": {
-    // --- 1x1 BLOCKS ---
     "*-polishedrock-square-*": {
       "stone": { "base": "game:block/stone/polishedrock/{rock}" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass" },
-      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" },
+      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x1/stainedglass_sym" }
     },
     "*-polishedrock-round-*": {
       "stone": { "base": "game:block/stone/polishedrock/{rock}" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass" },
-      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" },
+      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x1/stainedglass_sym" }
     },
     "*-square-*": {
       "stone": { "base": "game:block/stone/{style}/{rock}1" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass" },
-      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" },
+      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x1/stainedglass_sym" }
     },
     "*-round-*": {
       "stone": { "base": "game:block/stone/{style}/{rock}1" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass" },
-      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" },
+      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x1/stainedglass_sym" }
     },
 
-    // --- 1x2 BLOCKS (Specific rules to point to the correct folder) ---
     "*-polishedrock-up-*": {
       "stone": { "base": "game:block/stone/polishedrock/{rock}" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up" },
-      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_up" },
+      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_up_sym" }
     },
     "*-polishedrock-down-*": {
       "stone": { "base": "game:block/stone/polishedrock/{rock}" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down" },
-      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_down" },
+      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_down_sym" }
     },
     "*-up-*": {
       "stone": { "base": "game:block/stone/{style}/{rock}1" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up" },
-      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_up" },
+      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_up_sym" }
     },
     "*-down-*": {
       "stone": { "base": "game:block/stone/{style}/{rock}1" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down" },
-      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_down" },
+      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_down_sym" }
     },
 
-    // --- 2x2 BLOCKS (Catch-all for remaining HG, HD, BG, BD parts) ---
     "*-polishedrock-*": {
       "stone": { "base": "game:block/stone/polishedrock/{rock}" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/celestialcompass/2x2/stainedglass_{part}" },
-      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/2x2/stainedglass_{part}_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/2x2/stainedglass_{part}" },
+      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/2x2/stainedglass_{part}_sym" }
     },
     "*": {
       "stone": { "base": "game:block/stone/{style}/{rock}1" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/celestialcompass/2x2/stainedglass_{part}" },
-      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/2x2/stainedglass_{part}_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/2x2/stainedglass_{part}" },
+      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/2x2/stainedglass_{part}_sym" }
     }
   },
   "creativeinventory": {
     "general": [ "*-north" ],
     "construction": [ "*-north" ],
+    "decorative": [ "*-north" ],
     "stainedartifice": [ "*-north" ]
   },
   "blockmaterial": "Glass",

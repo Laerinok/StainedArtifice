@@ -1,0 +1,28 @@
+{
+  "code": "glasspattern",
+  "class": "Item",
+  "variantgroups": [
+    {
+      "code": "design",
+      "states": [ "celestialcompass", "emerald" ]
+    }
+  ],
+  "textures": {
+    "pattern": { "base": "block/stainedglass/{design}/1x1/stainedglass" }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "stainedartifice": [ "*" ]
+  },
+  "maxstacksize": 1,
+   "guiTransform": {
+    "origin": { "x": 0.5, "y": 0.55, "z": 0.5 },
+    "scale": 0.9
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0, "y": 0.2, "z": 0 },
+    "rotation": { "x": 10, "y": 10, "z": 0 },
+    "scale": 2.0
+  }
+}
