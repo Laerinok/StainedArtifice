@@ -1,0 +1,134 @@
+[
+  {
+    "ingredientPattern": "R,G",
+    "ingredients": {
+      "R": {
+        "type": "block",
+        "code": "game:cobblestone-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
+      },
+      "G": {
+        "type": "block",
+        "code": "game:glass-plain"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "stainedglass-{rock}-cobblestone-square-north",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "R,G",
+    "ingredients": {
+      "R": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
+      },
+      "G": {
+        "type": "block",
+        "code": "game:glass-plain"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "stainedglass-{rock}-polishedrock-square-north",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "R,G",
+    "ingredients": {
+      "R": {
+        "type": "block",
+        "code": "game:stonebricks-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
+      },
+      "G": {
+        "type": "block",
+        "code": "game:glass-plain"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "stainedglass-{rock}-brick-square-north",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "G,R",
+    "ingredients": {
+      "R": {
+        "type": "block",
+        "code": "game:cobblestone-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
+      },
+      "G": {
+        "type": "block",
+        "code": "game:glass-plain"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "stainedglass-{rock}-cobblestone-round-north",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "G,R",
+    "ingredients": {
+      "R": {
+        "type": "block",
+        "code": "game:rockpolished-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
+      },
+      "G": {
+        "type": "block",
+        "code": "game:glass-plain"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "stainedglass-{rock}-polishedrock-round-north",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "G,R",
+    "ingredients": {
+      "R": {
+        "type": "block",
+        "code": "game:stonebricks-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
+      },
+      "G": {
+        "type": "block",
+        "code": "game:glass-plain"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "stainedglass-{rock}-brick-round-north",
+      "quantity": 4
+    }
+  }
+]

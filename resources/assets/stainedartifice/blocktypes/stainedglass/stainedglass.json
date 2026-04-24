@@ -1,0 +1,141 @@
+{
+  "code": "stainedglass",
+  "class": "Block",
+  "variantgroups": [
+    {
+      "code": "rock",
+      "states": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
+    },
+    {
+      "code": "style",
+      "states": [ "cobblestone", "brick", "polishedrock" ]
+    },
+    {
+      "code": "part",
+      "states": [ "square", "round", "up", "down", "hg", "hd", "bg", "bd" ]
+    },
+    {
+      "code": "side",
+      "loadFromProperties": "abstract/horizontalorientation"
+    }
+  ],
+  "behaviors": [ { "name": "HorizontalOrientable" } ],
+  "shapebytype": {
+    "*-square-north": { "base": "block/stainedglass/1x1/stainedglass_square", "rotateY": 0 },
+    "*-square-east": { "base": "block/stainedglass/1x1/stainedglass_square", "rotateY": 270 },
+    "*-square-south": { "base": "block/stainedglass/1x1/stainedglass_square", "rotateY": 180 },
+    "*-square-west": { "base": "block/stainedglass/1x1/stainedglass_square", "rotateY": 90 },
+    "*-round-north": { "base": "block/stainedglass/1x1/stainedglass_round", "rotateY": 0 },
+    "*-round-east": { "base": "block/stainedglass/1x1/stainedglass_round", "rotateY": 270 },
+    "*-round-south": { "base": "block/stainedglass/1x1/stainedglass_round", "rotateY": 180 },
+    "*-round-west": { "base": "block/stainedglass/1x1/stainedglass_round", "rotateY": 90 },
+    "*-up-north": { "base": "block/stainedglass/1x2/stainedglass_up", "rotateY": 0 },
+    "*-up-east": { "base": "block/stainedglass/1x2/stainedglass_up", "rotateY": 270 },
+    "*-up-south": { "base": "block/stainedglass/1x2/stainedglass_up", "rotateY": 180 },
+    "*-up-west": { "base": "block/stainedglass/1x2/stainedglass_up", "rotateY": 90 },
+    "*-down-north": { "base": "block/stainedglass/1x2/stainedglass_down", "rotateY": 0 },
+    "*-down-east": { "base": "block/stainedglass/1x2/stainedglass_down", "rotateY": 270 },
+    "*-down-south": { "base": "block/stainedglass/1x2/stainedglass_down", "rotateY": 180 },
+    "*-down-west": { "base": "block/stainedglass/1x2/stainedglass_down", "rotateY": 90 },
+    "*-hg-north": { "base": "block/stainedglass/2x2/stainedglass_hg", "rotateY": 0 },
+    "*-hg-east": { "base": "block/stainedglass/2x2/stainedglass_hg", "rotateY": 270 },
+    "*-hg-south": { "base": "block/stainedglass/2x2/stainedglass_hg", "rotateY": 180 },
+    "*-hg-west": { "base": "block/stainedglass/2x2/stainedglass_hg", "rotateY": 90 },
+    "*-hd-north": { "base": "block/stainedglass/2x2/stainedglass_hd", "rotateY": 0 },
+    "*-hd-east": { "base": "block/stainedglass/2x2/stainedglass_hd", "rotateY": 270 },
+    "*-hd-south": { "base": "block/stainedglass/2x2/stainedglass_hd", "rotateY": 180 },
+    "*-hd-west": { "base": "block/stainedglass/2x2/stainedglass_hd", "rotateY": 90 },
+    "*-bg-north": { "base": "block/stainedglass/2x2/stainedglass_bg", "rotateY": 0 },
+    "*-bg-east": { "base": "block/stainedglass/2x2/stainedglass_bg", "rotateY": 270 },
+    "*-bg-south": { "base": "block/stainedglass/2x2/stainedglass_bg", "rotateY": 180 },
+    "*-bg-west": { "base": "block/stainedglass/2x2/stainedglass_bg", "rotateY": 90 },
+    "*-bd-north": { "base": "block/stainedglass/2x2/stainedglass_bd", "rotateY": 0 },
+    "*-bd-east": { "base": "block/stainedglass/2x2/stainedglass_bd", "rotateY": 270 },
+    "*-bd-south": { "base": "block/stainedglass/2x2/stainedglass_bd", "rotateY": 180 },
+    "*-bd-west": { "base": "block/stainedglass/2x2/stainedglass_bd", "rotateY": 90 }
+  },
+  "texturesByType": {
+    "*-polishedrock-square-*": {
+      "stone": { "base": "game:block/stone/polishedrock/{rock}" },
+      "lead": { "base": "game:block/metal/plate/lead" },
+      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass" },
+      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass_sym" }
+    },
+    "*-polishedrock-round-*": {
+      "stone": { "base": "game:block/stone/polishedrock/{rock}" },
+      "lead": { "base": "game:block/metal/plate/lead" },
+      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass" },
+      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass_sym" }
+    },
+    "*-square-*": {
+      "stone": { "base": "game:block/stone/{style}/{rock}1" },
+      "lead": { "base": "game:block/metal/plate/lead" },
+      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass" },
+      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass_sym" }
+    },
+    "*-round-*": {
+      "stone": { "base": "game:block/stone/{style}/{rock}1" },
+      "lead": { "base": "game:block/metal/plate/lead" },
+      "stainedglass": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass" },
+      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/1x1/stainedglass_sym" }
+    },
+    "*-polishedrock-*": {
+      "stone": { "base": "game:block/stone/polishedrock/{rock}" },
+      "lead": { "base": "game:block/metal/plate/lead" },
+      "stainedglass": { "base": "block/stainedglass/celestialcompass/2x2/stainedglass_{part}" },
+      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/2x2/stainedglass_{part}_sym" },
+      "stainedglass_up": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up" },
+      "stainedglass_up_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up_sym" },
+      "stainedglass_down": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down" },
+      "stainedglass_down_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down_sym" }
+    },
+    "*": {
+      "stone": { "base": "game:block/stone/{style}/{rock}1" },
+      "lead": { "base": "game:block/metal/plate/lead" },
+      "stainedglass": { "base": "block/stainedglass/celestialcompass/2x2/stainedglass_{part}" },
+      "stainedglass_sym": { "base": "block/stainedglass/celestialcompass/2x2/stainedglass_{part}_sym" },
+      "stainedglass_up": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up" },
+      "stainedglass_up_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_up_sym" },
+      "stainedglass_down": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down" },
+      "stainedglass_down_sym": { "base": "block/stainedglass/celestialcompass/1x2/stainedglass_down_sym" }
+    }
+  },
+  "creativeinventory": {
+    "general": [ "*-north" ],
+    "construction": [ "*-north" ],
+    "thejoramiterelics": [ "*-north" ]
+  },
+  "blockmaterial": "Glass",
+  "replaceable": 900,
+  "resistance": 0.5,
+  "lightAbsorption": 1,
+  "sideopaque": { "all": false },
+  "sidesolidByType": {
+    "*-north": { "south": true, "north": false },
+    "*-south": { "north": true, "south": false },
+    "*-east": { "west": true, "east": false },
+    "*-west": { "east": true, "west": false }
+  },
+  "collisionselectionboxByType": {
+    "*-north": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1, "z2": 0.625 },
+    "*-east": { "x1": 0.375, "y1": 0, "z1": 0, "x2": 0.625, "y2": 1, "z2": 1 },
+    "*-south": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1, "z2": 0.625 },
+    "*-west": { "x1": 0.375, "y1": 0, "z1": 0, "x2": 0.625, "y2": 1, "z2": 1 }
+  },
+  "sounds": {
+    "place": "game:player/buildhigh",
+    "break": "game:block/glass",
+    "hit": "game:block/glass",
+    "walk": "game:walk/stone",
+    "ambient": "game:environment/rainwindow",
+    "ambientBlockCount": 4,
+    "ambientSoundType": "Weather",
+    "ambientMaxDistanceMerge": 1
+  },
+  "guiTransform": { "scale": 1.2 },
+  "tpHandTransform": {
+    "translation": { "x": -1.23, "y": -1.3, "z": -0.7 },
+    "rotation": { "x": -80, "y": 20, "z": -100 },
+    "scale": 0.4
+  }
+}
