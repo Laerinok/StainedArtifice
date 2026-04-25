@@ -1,0 +1,32 @@
+{
+  "code": "glassmaker-tools",
+  "class": "Item",
+  "attributes": {
+    "handbook": {
+      "groupBy": [ "glassmaker-tools" ]
+    }
+  },
+  "shape": { "base": "item/glassmaker-tools" },
+  "textures": {
+    "wood": { "base": "game:block/wood/bark/oak" },
+    "bristles": { "base": "game:block/hay" },
+    "paint": { "base": "game:block/cloth/linen/black" }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "stainedartifice": [ "*" ]
+  },
+  "durability": 64,
+  "maxstacksize": 1,
+  "guiTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": -25, "y": 25, "z": 0 },
+    "scale": 2.5
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0, "y": 0.2, "z": 0 },
+    "rotation": { "x": 0, "y": 90, "z": 0 },
+    "scale": 2.5
+  }
+}

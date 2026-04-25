@@ -9,12 +9,11 @@
 	"textureSizes": {
 		"stone": [16,16],
 		"lead": [16,16],
-		"stainedglass": [16,16],
+		"stainedglass": [32,32],
 		"stainedglass_sym": [16,16]
 	},
 	"textures": {
-
-	},
+		},
 	"elements": [
 		{
 			"name": "Origin",
@@ -153,9 +152,9 @@
 					"renderPass": 3,
 					"rotationOrigin": [ 2.0, 2.0, 7.9 ],
 					"faces": {
-						"north": { "texture": "#stainedglass_sym", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"north": { "texture": "#stainedglass", "uv": [ 32.0, 0.0, 0.0, 32.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
 						"east": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 0.5, 12.0 ], "enabled": false },
-						"south": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
 						"west": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 0.5, 12.0 ], "enabled": false },
 						"up": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false },
 						"down": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false }

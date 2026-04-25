@@ -9,15 +9,11 @@
 	"textureSizes": {
 		"stone": [16,16],
 		"lead": [16,16],
-		"stainedglass": [16,16],
-		"stainedglass_sym": [16,16],
-		"stainedglass_up": [16,16],
-		"stainedglass_up_sym": [16,16]
+		"stainedglass": [32,64],
+		"stainedglass_sym": [32,64]
 	},
 	"textures": {
-		"stainedglass_up": "block/stainedglass/celestialcompass/1x2/stainedglass_up",
-		"stainedglass_up_sym": "block/stainedglass/celestialcompass/1x2/stainedglass_up_sym"
-	},
+		},
 	"elements": [
 		{
 			"name": "Origin",
@@ -128,9 +124,9 @@
 					"renderPass": 3,
 					"rotationOrigin": [ 2.0, 0.0, 7.9 ],
 					"faces": {
-						"north": { "texture": "#stainedglass_up_sym", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"north": { "texture": "#stainedglass", "uv": [ 32.0, 0.0, 0.0, 32.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
 						"east": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 0.5, 14.0 ], "enabled": false },
-						"south": { "texture": "#stainedglass_up", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
 						"west": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 0.5, 14.0 ], "enabled": false },
 						"up": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false },
 						"down": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false }

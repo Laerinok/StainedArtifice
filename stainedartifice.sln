@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11716.220 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stainedartifice", "stainedartifice.csproj", "{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Legacy-Debug|Any CPU = Legacy-Debug|Any CPU
+		Legacy-Debug|x64 = Legacy-Debug|x64
+		Legacy-Release|Any CPU = Legacy-Release|Any CPU
+		Legacy-Release|x64 = Legacy-Release|x64
+		Stable-Debug|Any CPU = Stable-Debug|Any CPU
+		Stable-Debug|x64 = Stable-Debug|x64
+		Stable-Release|Any CPU = Stable-Release|Any CPU
+		Stable-Release|x64 = Stable-Release|x64
+		Testing-Debug|Any CPU = Testing-Debug|Any CPU
+		Testing-Debug|x64 = Testing-Debug|x64
+		Testing-Release|Any CPU = Testing-Release|Any CPU
+		Testing-Release|x64 = Testing-Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Legacy-Debug|Any CPU.ActiveCfg = Legacy-Debug|Any CPU
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Legacy-Debug|Any CPU.Build.0 = Legacy-Debug|Any CPU
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Legacy-Debug|x64.ActiveCfg = Legacy-Debug|x64
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Legacy-Debug|x64.Build.0 = Legacy-Debug|x64
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Legacy-Release|Any CPU.ActiveCfg = Legacy-Release|Any CPU
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Legacy-Release|Any CPU.Build.0 = Legacy-Release|Any CPU
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Legacy-Release|x64.ActiveCfg = Legacy-Release|x64
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Legacy-Release|x64.Build.0 = Legacy-Release|x64
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Stable-Debug|Any CPU.ActiveCfg = Stable-Debug|Any CPU
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Stable-Debug|Any CPU.Build.0 = Stable-Debug|Any CPU
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Stable-Debug|x64.ActiveCfg = Stable-Debug|x64
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Stable-Debug|x64.Build.0 = Stable-Debug|x64
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Stable-Release|Any CPU.ActiveCfg = Stable-Release|Any CPU
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Stable-Release|Any CPU.Build.0 = Stable-Release|Any CPU
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Stable-Release|x64.ActiveCfg = Stable-Release|x64
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Stable-Release|x64.Build.0 = Stable-Release|x64
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Testing-Debug|Any CPU.ActiveCfg = Testing-Debug|Any CPU
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Testing-Debug|Any CPU.Build.0 = Testing-Debug|Any CPU
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Testing-Debug|x64.ActiveCfg = Testing-Debug|x64
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Testing-Debug|x64.Build.0 = Testing-Debug|x64
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Testing-Release|Any CPU.ActiveCfg = Testing-Release|Any CPU
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Testing-Release|Any CPU.Build.0 = Testing-Release|Any CPU
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Testing-Release|x64.ActiveCfg = Testing-Release|x64
+		{CA9690D1-5111-3CEF-B2F2-02F7D08B6F33}.Testing-Release|x64.Build.0 = Testing-Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA82560B-AA7B-477F-A1A6-046E6C7E483B}
+	EndGlobalSection
+EndGlobal

@@ -4,7 +4,7 @@
   "variantgroups": [
     { 
       "code": "pattern",
-      "states": [ "celestialcompass", "emerald" ] },
+      "states": [ "emerald" ] },
     {
       "code": "rock",
       "states": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
@@ -64,64 +64,54 @@
     "*-polishedrock-square-*": {
       "stone": { "base": "game:block/stone/polishedrock/{rock}" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" },
-      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x1/stainedglass_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" }
     },
     "*-polishedrock-round-*": {
       "stone": { "base": "game:block/stone/polishedrock/{rock}" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" },
-      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x1/stainedglass_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" }
     },
     "*-square-*": {
       "stone": { "base": "game:block/stone/{style}/{rock}1" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" },
-      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x1/stainedglass_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" }
     },
     "*-round-*": {
       "stone": { "base": "game:block/stone/{style}/{rock}1" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" },
-      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x1/stainedglass_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" }
     },
 
     "*-polishedrock-up-*": {
       "stone": { "base": "game:block/stone/polishedrock/{rock}" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_up" },
-      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_up_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
     },
     "*-polishedrock-down-*": {
       "stone": { "base": "game:block/stone/polishedrock/{rock}" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_down" },
-      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_down_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
     },
     "*-up-*": {
       "stone": { "base": "game:block/stone/{style}/{rock}1" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_up" },
-      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_up_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
     },
     "*-down-*": {
       "stone": { "base": "game:block/stone/{style}/{rock}1" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_down" },
-      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/1x2/stainedglass_down_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
     },
 
     "*-polishedrock-*": {
       "stone": { "base": "game:block/stone/polishedrock/{rock}" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/2x2/stainedglass_{part}" },
-      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/2x2/stainedglass_{part}_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/2x2/stainedglass" }
     },
     "*": {
       "stone": { "base": "game:block/stone/{style}/{rock}1" },
       "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/2x2/stainedglass_{part}" },
-      "stainedglass_sym": { "base": "block/stainedglass/{pattern}/2x2/stainedglass_{part}_sym" }
+      "stainedglass": { "base": "block/stainedglass/{pattern}/2x2/stainedglass" }
     }
   },
   "creativeinventory": {

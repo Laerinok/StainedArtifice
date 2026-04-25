@@ -9,12 +9,12 @@
 		"stone": [16,16],
 		"lead": [16,16],
 		"stainedglass_down": [16,16],
-		"stainedglass_down_sym": [16,16]
+		"stainedglass_down_sym": [16,16],
+		"stainedglass": [32,64],
+		"stainedglass_sym": [32,64]
 	},
 	"textures": {
-		"stainedglass_down": "block/stainedglass/celestialcompass/1x2/stainedglass_down",
-		"stainedglass_down_sym": "block/stainedglass/celestialcompass/1x2/stainedglass_down_sym"
-	},
+		},
 	"elements": [
 		{
 			"name": "Origin",
@@ -123,14 +123,14 @@
 					"from": [ 2.0, 2.0, 7.9 ],
 					"to": [ 14.0, 16.0, 8.1 ],
 					"renderPass": 3,
-					"rotationOrigin": [ 2.0, 2.0, 7.9 ],
+					"rotationOrigin": [ 8.0, 2.0, 7.9 ],
 					"faces": {
-						"north": { "texture": "#stainedglass_down_sym", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
-						"east": { "texture": "#stainedglass_down", "uv": [ 0.0, 0.0, 0.25, 14.0 ], "enabled": false },
-						"south": { "texture": "#stainedglass_down", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
-						"west": { "texture": "#stainedglass_down", "uv": [ 0.0, 0.0, 0.25, 14.0 ], "enabled": false },
-						"up": { "texture": "#stainedglass_down", "uv": [ 0.0, 0.0, 12.0, 0.25 ], "enabled": false },
-						"down": { "texture": "#stainedglass_down", "uv": [ 0.0, 0.0, 12.0, 0.25 ], "enabled": false }
+						"north": { "texture": "#stainedglass", "uv": [ 32.0, 32.0, 0.0, 64.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+						"east": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 0.5, 14.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0], "enabled": false },
+						"south": { "texture": "#stainedglass", "uv": [ 0.0, 32.0, 32.0, 64.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 0.5, 14.0 ], "enabled": false },
+						"up": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false }
 					}
 				}
 			]

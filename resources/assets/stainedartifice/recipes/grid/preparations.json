@@ -1,31 +1,161 @@
 [
   {
+    "ingredientPattern": "F,S,B",
+    "ingredients": {
+      "F": {
+        "type": "item",
+        "code": "game:feather"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:stick"
+      },
+      "B": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:dye-*"
+        },
+        "requiresLitres": 0.1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "glassmaker-tools"
+    }
+  },
+  {
     "ingredientPattern": "HCI",
     "ingredients": {
-      "H": { "type": "item", "code": "game:hammer-*", "isTool": true },
-      "C": { "type": "item", "code": "game:chisel-*", "isTool": true },
-      "I": { "type": "item", "code": "game:ingot-lead" }
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "I": {
+        "type": "item",
+        "code": "game:ingot-lead"
+      }
     },
     "width": 3,
     "height": 1,
-    "output": { 
-      "type": "item", 
-      "code": "lead-cames", 
-      "quantity": 16 
+    "output": {
+      "type": "item",
+      "code": "lead-cames",
+      "quantity": 16
     }
   },
-
   {
-    "ingredientPattern": "CD",
+    "ingredientPattern": "PTC",
     "ingredients": {
-      "C": { "type": "item", "code": "game:paper-parchment" },
-      "D": { "type": "item", "code": "game:charcoal" }
+      "P": {
+        "type": "item",
+        "code": "game:paper-plain"
+      },
+      "T": {
+        "type": "item",
+        "code": "glassmaker-tools",
+        "isTool": true
+      },
+      "C": {
+        "type": "item",
+        "code": "game:charcoal"
+      }
     },
-    "width": 2,
+    "width": 3,
     "height": 1,
-    "output": { 
-      "type": "item", 
-      "code": "glasspattern-celestialcompass" 
+    "output": {
+      "type": "item",
+      "code": "glasspattern-celestialcompass"
+    }
+  },
+  {
+    "ingredientPattern": "PTN",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:paper-plain"
+      },
+      "T": {
+        "type": "item",
+        "code": "glassmaker-tools",
+        "isTool": true
+      },
+      "N": {
+        "type": "item",
+        "code": "game:nugget-nativecopper"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "glasspattern-clockwork"
+    }
+  },
+  {
+    "ingredientPattern": "PTD",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:paper-plain"
+      },
+      "T": {
+        "type": "item",
+        "code": "glassmaker-tools",
+        "isTool": true
+      },
+      "D": {
+        "type": "item",
+        "code": "game:dye-green"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "glasspattern-monastic"
+    }
+  },
+  {
+    "ingredientPattern": "PTE",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:paper-plain"
+      },
+      "T": {
+        "type": "item",
+        "code": "glassmaker-tools",
+        "isTool": true
+      },
+      "E": {
+        "type": "item",
+        "code": "game:gem-emerald"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "glasspattern-emerald"
     }
   }
 ]
