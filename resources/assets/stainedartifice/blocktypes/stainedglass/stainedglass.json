@@ -4,7 +4,7 @@
   "variantgroups": [
     { 
       "code": "pattern",
-      "states": [ "emerald" ] },
+      "states": [ "celestialcompass",  "emerald", "mechanicaldecay", "greatmechanism" ] },
     {
       "code": "rock",
       "states": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
@@ -21,6 +21,18 @@
       "code": "side",
       "loadFromProperties": "abstract/horizontalorientation"
     }
+  ],
+  "skipVariants": [
+    "stainedglass-mechanicaldecay-*-*-square-*",
+    "stainedglass-mechanicaldecay-*-*-round-*",
+    "stainedglass-mechanicaldecay-*-*-hg-*",
+    "stainedglass-mechanicaldecay-*-*-hd-*",
+    "stainedglass-mechanicaldecay-*-*-bg-*",
+    "stainedglass-mechanicaldecay-*-*-bd-*",
+    "stainedglass-greatmechanism-*-*-up-*",
+    "stainedglass-greatmechanism-*-*-down-*",
+    "stainedglass-celestialcompass-*-*-up-*",
+    "stainedglass-celestialcompass-*-*-down-*"
   ],
   "handbook": {
     "groupBy": [ "stainedglass-*" ]
