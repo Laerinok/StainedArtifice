@@ -4,7 +4,8 @@
   "variantgroups": [
     { 
       "code": "pattern",
-      "states": [ "celestialcompass",  "emerald", "mechanicaldecay", "greatmechanism" ] },
+      "states": [ "celestialcompass",  "emerald", "mechanicaldecay", "greatmechanism", "dawnclockarboreous", "voidstainedeternity" ] 
+    },
     {
       "code": "rock",
       "states": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ]
@@ -32,7 +33,11 @@
     "stainedglass-greatmechanism-*-*-up-*",
     "stainedglass-greatmechanism-*-*-down-*",
     "stainedglass-celestialcompass-*-*-up-*",
-    "stainedglass-celestialcompass-*-*-down-*"
+    "stainedglass-celestialcompass-*-*-down-*",
+    "stainedglass-dawnclockarboreous-*-*-up-*",
+    "stainedglass-dawnclockarboreous-*-*-down-*",
+    "stainedglass-voidstainedeternity-*-*-up-*",
+    "stainedglass-voidstainedeternity-*-*-down-*"
   ],
   "handbook": {
     "groupBy": [ "stainedglass-*" ]
@@ -135,13 +140,30 @@
   "blockmaterial": "Glass",
   "replaceable": 900,
   "resistance": 0.5,
-  "lightAbsorption": 1,
   "sideopaque": { "all": false },
   "sidesolidByType": {
     "*-north": { "south": true, "north": false },
     "*-south": { "north": true, "south": false },
     "*-east": { "west": true, "east": false },
     "*-west": { "east": true, "west": false }
+  },
+  "lightAbsorptionByType": {
+    "*-celestialcompass-*": 1,
+    "*-emerald-*": 1,
+    "*-dawnclockarboreous-*": 2,
+    "*-greatmechanism-*": 2,
+    "*-mechanicaldecay-*": 4,
+    "*-voidstainedeternity-*": 7,
+    "*": 1
+  },
+  "lightHsvByType": {
+    "*-celestialcompass-*": [ 15, 3, 9 ],
+    "*-emerald-*": [ 10, 5, 7 ],
+    "*-dawnclockarboreous-*": [ 6, 3, 8 ],
+    "*-greatmechanism-*": [ 5, 6, 10 ],
+    "*-mechanicaldecay-*": [ 4, 4, 3 ],
+    "*-voidstainedeternity-*": [ 19, 7, 4 ],
+    "*": [ 5, 2, 5 ]
   },
   "collisionselectionboxByType": {
     "*-north": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1, "z2": 0.625 },

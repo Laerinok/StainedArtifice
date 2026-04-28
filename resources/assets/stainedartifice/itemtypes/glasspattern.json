@@ -4,21 +4,82 @@
   "variantgroups": [
     {
       "code": "design",
-      "states": [ "celestialcompass", "emerald" ]
+      "states": [ "celestialcompass",  "emerald", "mechanicaldecay", "greatmechanism", "dawnclockarboreous", "voidstainedeternity" ]
+    },
+    {
+      "code": "form",
+      "states": [ "1x1", "1x2" ]
     }
   ],
-  "textures": {
-    "pattern": { "base": "block/stainedglass/{design}/1x1/stainedglass" }
+  "skipVariants": [
+    "*-celestialcompass-1x2",
+    "*-greatmechanism-1x2",
+    "*-dawnclockarboreous-1x2",
+    "*-voidstainedeternity-1x2",
+    "*-mechanicaldecay-1x1"
+  ],
+  "shapebytype": {
+    "*-1x1": { "base": "item/pattern-paper-1x1" },
+    "*-1x2": { "base": "item/pattern-paper-1x2" }
   },
+  "textures": {
+      "paper": {"base": "item/resources/paper/{form}/paper"},
+      "stainedglass": { 
+        "base": "item/resources/paper/{form}/paper",
+        "overlays": ["block/stainedglass/{design}/{form}/stainedglass"]
+      }
+    },
+  
+  
   "creativeinventory": {
     "general": [ "*" ],
     "items": [ "*" ],
     "stainedartifice": [ "*" ]
   },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.125,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "durability": 20,
+  "attributes": {
+    "groundable": true,
+    "moldrackable": true,
+    "onmoldrackTransformByType": {
+      "*-1x1": {
+        "translation": { "x": 0.87, "y": 0, "z": 0 },
+        "rotation": { "x": 0, "y": 0, "z": -83 }
+      },
+      "*-1x2": {
+        "translation": { "x": 0.94, "y": 0, "z": 0 },
+        "rotation": { "x": 0, "y": 0, "z": -80 }
+      },
+      "scale": 1
+    },
+    "groundStorageTransform": {
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 1
+    }
+  },
   "maxstacksize": 1,
-   "guiTransform": {
-    "origin": { "x": 0.5, "y": 0.55, "z": 0.5 },
-    "scale": 0.9
+  "guiTransform": {
+    "rotation": { "x": 90, "y": 180, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+    "scaleXyz": { "x": -1.5, "y": 1.5, "z": 1.5 }    
   },
   "fpHandTransform": {
     "translation": { "x": 0, "y": 0.2, "z": 0 },

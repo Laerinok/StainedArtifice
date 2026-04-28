@@ -33,6 +33,12 @@
   "attributes": {
     "groundable": true,
     "shelvable": true,
+    "displaycaseable": true,
+		"displayable": {
+			"shelf": {
+				"size": { "width": 5, "height": 4, "length": 5 }
+			}
+		},
     "onshelfTransform": {
       "origin": {
         "x": 0.5,
@@ -41,6 +47,10 @@
       },
       "scale": 0.4
     },
+    "onDisplayTransform": {
+      "translation": { "x": 0, "y": -0.3, "z": 0 },
+      "scale": 0.4
+      },
     "groundStorageTransform": {
       "origin": {
         "x": 0.5,

@@ -4,29 +4,100 @@
   "attributes": {
     "handbook": {
       "groupBy": [ "glassmaker-tools" ]
-    }
+    },
+    "groundable": true,
+    "shelvable": true,
+    "displaycaseable": true,
+		"displayable": {
+			"shelf": {
+				"size": { "width": 5, "height": 4, "length": 5 }
+			}
+		},
+    "onshelfTransform": {
+      "rotation": { "x": 0, "y": -170, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.55
+      },
+    "groundStorageTransform": {
+      "rotation": { "x": 0, "y": -170, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.55
+      },
+    "onDisplayTransform": {
+      "translation": { "x": 0, "y": -0.2, "z": 0 },
+      "rotation": { "x": 0, "y": -180, "z": 0 },
+      "scale": 0.55
+      }
   },
   "shape": { "base": "item/glassmaker-tools" },
   "textures": {
-    "wood": { "base": "game:block/wood/bark/oak" },
-    "bristles": { "base": "game:block/hay" },
-    "paint": { "base": "game:block/cloth/linen/black" }
+    "aged1": { "base": "game:block/leather/aged1" },
+    "plain": { "base": "game:block/leather/plain" },
+    "iron": { "base": "game:block/metal/ingot/iron" },
+    "oak": { "base": "game:block/wood/oak" },
+    "feather": { "base": "game:item/tool/feather" }
   },
   "creativeinventory": {
     "general": [ "*" ],
     "items": [ "*" ],
     "stainedartifice": [ "*" ]
   },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Quadrants",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.125,
+          "z2": 1
+        }
+      }
+    }
+  ],
+
   "durability": 64,
   "maxstacksize": 1,
+  "selectionbox": {
+    "x1": 0.1875,
+    "y1": 0.0,
+    "z1": 0.0,
+    "x2": 0.8125,
+    "y2": 0.25,
+    "z2": 0.75
+  },
+  "collisionbox": {
+    "x1": 0.1875,
+    "y1": 0.0,
+    "z1": 0.0,
+    "x2": 0.8125,
+    "y2": 0.25,
+    "z2": 0.75
+  },
   "guiTransform": {
-    "translation": { "x": 0, "y": 0, "z": 0 },
-    "rotation": { "x": -25, "y": 25, "z": 0 },
-    "scale": 2.5
+    "rotation": { "x": 120, "y": -20, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+    "scale": 2.2
   },
   "fpHandTransform": {
-    "translation": { "x": 0, "y": 0.2, "z": 0 },
-    "rotation": { "x": 0, "y": 90, "z": 0 },
+    "translation": { "x": 0.05, "y": 0.1, "z": 0.2 },
+    "rotation": { "x": 15, "y": -15, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
     "scale": 2.5
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.85, "y": -0.15, "z": -0.5 },
+    "rotation": { "x": -85, "y": 10, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+    "scale": 0.85
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 0 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 3.0
   }
 }
