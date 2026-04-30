@@ -4,7 +4,7 @@
   "variantgroups": [
     {
       "code": "design",
-      "states": [ "celestialcompass",  "emerald", "mechanicaldecay", "greatmechanism", "dawnclockarboreous", "voidstainedeternity" ]
+      "states": [ "celestialcompass",  "emerald", "mechanicaldecay", "greatmechanism", "dawnclockarboreous", "voidstainedeternity", "anachronicfragment" ]
     },
     {
       "code": "form",
@@ -16,7 +16,8 @@
     "*-greatmechanism-1x2",
     "*-dawnclockarboreous-1x2",
     "*-voidstainedeternity-1x2",
-    "*-mechanicaldecay-1x1"
+    "*-mechanicaldecay-1x1",
+    "*-anachronicfragment-1x1"
   ],
   "shapebytype": {
     "*-1x1": { "base": "item/pattern-paper-1x1" },

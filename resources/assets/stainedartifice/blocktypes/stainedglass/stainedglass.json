@@ -4,7 +4,7 @@
   "variantgroups": [
     { 
       "code": "pattern",
-      "states": [ "celestialcompass",  "emerald", "mechanicaldecay", "greatmechanism", "dawnclockarboreous", "voidstainedeternity" ] 
+      "states": [ "celestialcompass",  "emerald", "mechanicaldecay", "greatmechanism", "dawnclockarboreous", "voidstainedeternity", "anachronicfragment" ] 
     },
     {
       "code": "rock",
@@ -30,6 +30,12 @@
     "stainedglass-mechanicaldecay-*-*-hd-*",
     "stainedglass-mechanicaldecay-*-*-bg-*",
     "stainedglass-mechanicaldecay-*-*-bd-*",
+    "stainedglass-anachronicfragment-*-*-square-*",
+    "stainedglass-anachronicfragment-*-*-round-*",
+    "stainedglass-anachronicfragment-*-*-hg-*",
+    "stainedglass-anachronicfragment-*-*-hd-*",
+    "stainedglass-anachronicfragment-*-*-bg-*",
+    "stainedglass-anachronicfragment-*-*-bd-*",
     "stainedglass-greatmechanism-*-*-up-*",
     "stainedglass-greatmechanism-*-*-down-*",
     "stainedglass-celestialcompass-*-*-up-*",
