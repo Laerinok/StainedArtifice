@@ -4,7 +4,7 @@
   "variantgroups": [
     { 
       "code": "pattern",
-      "states": [ "celestialcompass",  "emerald", "mechanicaldecay", "greatmechanism", "dawnclockarboreous", "voidstainedeternity", "anachronicfragment" ] 
+      "states": [ "celestialcompass",  "emerald", "mechanicaldecay", "greatmechanism", "dawnclockarboreous", "voidstainedeternity", "anachronicfragment", "embersmith" ] 
     },
     {
       "code": "rock",
@@ -16,7 +16,7 @@
     },
     {
       "code": "part",
-      "states": [ "square", "round", "up", "down", "hg", "hd", "bg", "bd" ]
+      "states": [ "square", "round", "up", "up1", "down", "hg", "hd", "bg", "bd" ]
     },
     {
       "code": "side",
@@ -36,13 +36,23 @@
     "stainedglass-anachronicfragment-*-*-hd-*",
     "stainedglass-anachronicfragment-*-*-bg-*",
     "stainedglass-anachronicfragment-*-*-bd-*",
+    "stainedglass-embersmith-*-*-square-*",
+    "stainedglass-embersmith-*-*-round-*",
+    "stainedglass-embersmith-*-*-hg-*",
+    "stainedglass-embersmith-*-*-hd-*",
+    "stainedglass-embersmith-*-*-bg-*",
+    "stainedglass-embersmith-*-*-bd-*",
+    "stainedglass-embersmith-*-*-up-*",
     "stainedglass-greatmechanism-*-*-up-*",
+    "stainedglass-greatmechanism-*-*-up1-*",
     "stainedglass-greatmechanism-*-*-down-*",
     "stainedglass-celestialcompass-*-*-up-*",
     "stainedglass-celestialcompass-*-*-down-*",
     "stainedglass-dawnclockarboreous-*-*-up-*",
+    "stainedglass-dawnclockarboreous-*-*-up1-*",
     "stainedglass-dawnclockarboreous-*-*-down-*",
     "stainedglass-voidstainedeternity-*-*-up-*",
+    "stainedglass-voidstainedeternity-*-*-up1-*",
     "stainedglass-voidstainedeternity-*-*-down-*"
   ],
   "handbook": {
@@ -62,6 +72,10 @@
     "*-up-east": { "base": "block/stainedglass/1x2/stainedglass_up", "rotateY": 270 },
     "*-up-south": { "base": "block/stainedglass/1x2/stainedglass_up", "rotateY": 180 },
     "*-up-west": { "base": "block/stainedglass/1x2/stainedglass_up", "rotateY": 90 },
+    "*-up1-north": { "base": "block/stainedglass/1x2/stainedglass_up1", "rotateY": 0 },
+    "*-up1-east": { "base": "block/stainedglass/1x2/stainedglass_up1", "rotateY": 270 },
+    "*-up1-south": { "base": "block/stainedglass/1x2/stainedglass_up1", "rotateY": 180 },
+    "*-up1-west": { "base": "block/stainedglass/1x2/stainedglass_up1", "rotateY": 90 },
     "*-down-north": { "base": "block/stainedglass/1x2/stainedglass_down", "rotateY": 0 },
     "*-down-east": { "base": "block/stainedglass/1x2/stainedglass_down", "rotateY": 270 },
     "*-down-south": { "base": "block/stainedglass/1x2/stainedglass_down", "rotateY": 180 },
@@ -120,6 +134,11 @@
       "lead": { "base": "game:block/metal/plate/lead" },
       "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
     },
+    "*-up1-*": {
+      "stone": { "base": "game:block/stone/{style}/{rock}1" },
+      "lead": { "base": "game:block/metal/plate/lead" },
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
+    },
     "*-down-*": {
       "stone": { "base": "game:block/stone/{style}/{rock}1" },
       "lead": { "base": "game:block/metal/plate/lead" },
@@ -163,13 +182,13 @@
     "*": 1
   },
   "lightHsvByType": {
-    "*-celestialcompass-*": [ 15, 3, 9 ],
-    "*-emerald-*": [ 10, 5, 7 ],
-    "*-dawnclockarboreous-*": [ 6, 3, 8 ],
-    "*-greatmechanism-*": [ 5, 6, 10 ],
-    "*-mechanicaldecay-*": [ 4, 4, 3 ],
-    "*-voidstainedeternity-*": [ 19, 7, 4 ],
-    "*": [ 5, 2, 5 ]
+    "*-celestialcompass-*": [ 15, 2, 1 ],
+    "*-emerald-*": [ 10, 2, 1 ],
+    "*-dawnclockarboreous-*": [ 6, 2, 1 ],
+    "*-greatmechanism-*": [ 5, 2, 1 ],
+    "*-mechanicaldecay-*": [ 4, 2, 1 ],
+    "*-voidstainedeternity-*": [ 19, 2, 1 ],
+    "*": [ 5, 2, 1 ]
   },
   "collisionselectionboxByType": {
     "*-north": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1, "z2": 0.625 },

@@ -9,7 +9,7 @@
     },
     "allowedVariants": {
       "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
-      "pattern": [ "emerald", "mechanicaldecay", "anachronicfragment" ]
+      "pattern": [ "emerald", "mechanicaldecay", "anachronicfragment", "embersmith" ]
     },
     "width": 2,
     "height": 2,
@@ -29,7 +29,7 @@
     },
     "allowedVariants": {
       "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
-      "pattern": [ "emerald", "mechanicaldecay", "anachronicfragment" ]
+      "pattern": [ "emerald", "mechanicaldecay", "anachronicfragment", "embersmith" ]
     },
     "width": 2,
     "height": 2,
@@ -49,7 +49,7 @@
     },
     "allowedVariants": {
       "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
-      "pattern": [ "emerald", "mechanicaldecay", "anachronicfragment" ]
+      "pattern": [ "emerald", "mechanicaldecay", "anachronicfragment", "embersmith" ]
     },
     "width": 2,
     "height": 2,
@@ -69,7 +69,7 @@
     },
     "allowedVariants": {
       "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
-      "pattern": [ "emerald", "mechanicaldecay", "anachronicfragment" ]
+      "pattern": [ "emerald", "mechanicaldecay", "anachronicfragment", "embersmith" ]
     },
     "width": 2,
     "height": 2,
@@ -89,7 +89,7 @@
     },
     "allowedVariants": {
       "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
-      "pattern": [ "emerald", "mechanicaldecay", "anachronicfragment" ]
+      "pattern": [ "emerald", "mechanicaldecay", "anachronicfragment", "embersmith" ]
     },
     "width": 2,
     "height": 2,
@@ -109,7 +109,7 @@
     },
     "allowedVariants": {
       "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
-      "pattern": [ "emerald", "mechanicaldecay", "anachronicfragment" ]
+      "pattern": [ "emerald", "mechanicaldecay", "anachronicfragment", "embersmith" ]
     },
     "width": 2,
     "height": 2,
