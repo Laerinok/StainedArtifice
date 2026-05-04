@@ -16,7 +16,7 @@
     },
     {
       "code": "format",
-      "states": [ "1w" ]
+      "states": [ "1w", "2w_left", "2w_right" ]
     },
     {
       "code": "part",
@@ -32,6 +32,13 @@
     }
   ],
   "skipVariants": [
+    "stainedglass-*-*-*-1w-mid-*-*",
+    "stainedglass-*-*-*-1w-single-romanesque-*",
+    "stainedglass-*-*-*-1w-single-gothic-*",
+    "stainedglass-*-*-*-1w-bottom-gothic-*",
+    "stainedglass-*-*-*-1w-bottom-romanesque-*",
+    "stainedglass-*-*-*-1w-bottom-circular-*",
+    "stainedglass-*-*-*-1w-top-circular-*",
     "stainedglass-celestialcompass-*-*-1w-bottom-*-*",
     "stainedglass-celestialcompass-*-*-1w-top-*-*",
     "stainedglass-dawnclockarboreous-*-*-1w-bottom-*-*",
@@ -40,19 +47,30 @@
     "stainedglass-greatmechanism-*-*-1w-top-*-*",
     "stainedglass-voidstainedeternity-*-*-1w-bottom-*-*",
     "stainedglass-voidstainedeternity-*-*-1w-top-*-*",
-    "stainedglass-*-*-*-1w-mid-*-*",
-    "stainedglass-*-*-*-1w-single-romanesque-*",
-    "stainedglass-*-*-*-1w-single-gothic-*",
-    "stainedglass-*-*-*-1w-bottom-gothic-*",
-    "stainedglass-*-*-*-1w-bottom-romanesque-*",
-    "stainedglass-*-*-*-1w-bottom-circular-*",
-    "stainedglass-*-*-*-1w-top-circular-*",
     "stainedglass-mechanicaldecay-*-*-1w-single-*-*",
     "stainedglass-anachronicfragment-*-*-1w-single-*-*",
     "stainedglass-embersmith-*-*-1w-single-*-*",
     "stainedglass-embersmith-*-*-1w-top-plain-*",
     "stainedglass-embersmith-*-*-1w-top-circular-*",
-    "stainedglass-embersmith-*-*-1w-top-gothic-*"
+    "stainedglass-embersmith-*-*-1w-top-gothic-*",
+
+    "stainedglass-*-*-*-2w_left-*-circular-*",
+    "stainedglass-*-*-*-2w_left-*-gothic-*",
+    "stainedglass-*-*-*-2w_left-*-romanesque-*",
+    "stainedglass-*-*-*-2w_left-single-plain-*",
+    "stainedglass-*-*-*-2w_left-mid-plain-*",
+    "stainedglass-anachronicfragment-*-*-2w_left-*-*-*",
+    "stainedglass-embersmith-*-*-2w_left-*-*-*",
+    "stainedglass-mechanicaldecay-*-*-2w_left-*-*-*",
+
+    "stainedglass-*-*-*-2w_right-*-circular-*",
+    "stainedglass-*-*-*-2w_right-*-gothic-*",
+    "stainedglass-*-*-*-2w_right-*-romanesque-*",
+    "stainedglass-*-*-*-2w_right-single-plain-*",
+    "stainedglass-*-*-*-2w_right-mid-plain-*",
+    "stainedglass-anachronicfragment-*-*-2w_right-*-*-*",
+    "stainedglass-embersmith-*-*-2w_right-*-*-*",
+    "stainedglass-mechanicaldecay-*-*-2w_right-*-*-*"
   ],
   "handbook": {
     "groupBy": [ "stainedglass-*" ]
