@@ -15,8 +15,16 @@
       "states": [ "cobblestone", "brick", "polishedrock" ]
     },
     {
+      "code": "format",
+      "states": [ "1w" ]
+    },
+    {
       "code": "part",
-      "states": [ "square", "round", "up", "up1", "down", "hg", "hd", "bg", "bd" ]
+      "states": [ "single", "bottom", "mid", "top" ]
+    },
+    {
+      "code": "design",
+      "states": [ "plain", "circular", "romanesque", "gothic" ]
     },
     {
       "code": "side",
@@ -24,135 +32,87 @@
     }
   ],
   "skipVariants": [
-    "stainedglass-mechanicaldecay-*-*-square-*",
-    "stainedglass-mechanicaldecay-*-*-round-*",
-    "stainedglass-mechanicaldecay-*-*-hg-*",
-    "stainedglass-mechanicaldecay-*-*-hd-*",
-    "stainedglass-mechanicaldecay-*-*-bg-*",
-    "stainedglass-mechanicaldecay-*-*-bd-*",
-    "stainedglass-anachronicfragment-*-*-square-*",
-    "stainedglass-anachronicfragment-*-*-round-*",
-    "stainedglass-anachronicfragment-*-*-hg-*",
-    "stainedglass-anachronicfragment-*-*-hd-*",
-    "stainedglass-anachronicfragment-*-*-bg-*",
-    "stainedglass-anachronicfragment-*-*-bd-*",
-    "stainedglass-embersmith-*-*-square-*",
-    "stainedglass-embersmith-*-*-round-*",
-    "stainedglass-embersmith-*-*-hg-*",
-    "stainedglass-embersmith-*-*-hd-*",
-    "stainedglass-embersmith-*-*-bg-*",
-    "stainedglass-embersmith-*-*-bd-*",
-    "stainedglass-embersmith-*-*-up-*",
-    "stainedglass-greatmechanism-*-*-up-*",
-    "stainedglass-greatmechanism-*-*-up1-*",
-    "stainedglass-greatmechanism-*-*-down-*",
-    "stainedglass-celestialcompass-*-*-up-*",
-    "stainedglass-celestialcompass-*-*-down-*",
-    "stainedglass-dawnclockarboreous-*-*-up-*",
-    "stainedglass-dawnclockarboreous-*-*-up1-*",
-    "stainedglass-dawnclockarboreous-*-*-down-*",
-    "stainedglass-voidstainedeternity-*-*-up-*",
-    "stainedglass-voidstainedeternity-*-*-up1-*",
-    "stainedglass-voidstainedeternity-*-*-down-*"
+    "stainedglass-celestialcompass-*-*-1w-bottom-*-*",
+    "stainedglass-celestialcompass-*-*-1w-top-*-*",
+    "stainedglass-dawnclockarboreous-*-*-1w-bottom-*-*",
+    "stainedglass-dawnclockarboreous-*-*-1w-top-*-*",
+    "stainedglass-greatmechanism-*-*-1w-bottom-*-*",
+    "stainedglass-greatmechanism-*-*-1w-top-*-*",
+    "stainedglass-voidstainedeternity-*-*-1w-bottom-*-*",
+    "stainedglass-voidstainedeternity-*-*-1w-top-*-*",
+    "stainedglass-*-*-*-1w-mid-*-*",
+    "stainedglass-*-*-*-1w-single-romanesque-*",
+    "stainedglass-*-*-*-1w-single-gothic-*",
+    "stainedglass-*-*-*-1w-bottom-gothic-*",
+    "stainedglass-*-*-*-1w-bottom-romanesque-*",
+    "stainedglass-*-*-*-1w-bottom-circular-*",
+    "stainedglass-*-*-*-1w-top-circular-*",
+    "stainedglass-mechanicaldecay-*-*-1w-single-*-*",
+    "stainedglass-anachronicfragment-*-*-1w-single-*-*",
+    "stainedglass-embersmith-*-*-1w-single-*-*",
+    "stainedglass-embersmith-*-*-1w-top-plain-*",
+    "stainedglass-embersmith-*-*-1w-top-circular-*",
+    "stainedglass-embersmith-*-*-1w-top-gothic-*"
   ],
   "handbook": {
     "groupBy": [ "stainedglass-*" ]
   },
   "behaviors": [ { "name": "HorizontalOrientable" } ],
   "shapebytype": {
-    "*-square-north": { "base": "block/stainedglass/1x1/stainedglass_square", "rotateY": 0 },
-    "*-square-east": { "base": "block/stainedglass/1x1/stainedglass_square", "rotateY": 270 },
-    "*-square-south": { "base": "block/stainedglass/1x1/stainedglass_square", "rotateY": 180 },
-    "*-square-west": { "base": "block/stainedglass/1x1/stainedglass_square", "rotateY": 90 },
-    "*-round-north": { "base": "block/stainedglass/1x1/stainedglass_round", "rotateY": 0 },
-    "*-round-east": { "base": "block/stainedglass/1x1/stainedglass_round", "rotateY": 270 },
-    "*-round-south": { "base": "block/stainedglass/1x1/stainedglass_round", "rotateY": 180 },
-    "*-round-west": { "base": "block/stainedglass/1x1/stainedglass_round", "rotateY": 90 },
-    "*-up-north": { "base": "block/stainedglass/1x2/stainedglass_up", "rotateY": 0 },
-    "*-up-east": { "base": "block/stainedglass/1x2/stainedglass_up", "rotateY": 270 },
-    "*-up-south": { "base": "block/stainedglass/1x2/stainedglass_up", "rotateY": 180 },
-    "*-up-west": { "base": "block/stainedglass/1x2/stainedglass_up", "rotateY": 90 },
-    "*-up1-north": { "base": "block/stainedglass/1x2/stainedglass_up1", "rotateY": 0 },
-    "*-up1-east": { "base": "block/stainedglass/1x2/stainedglass_up1", "rotateY": 270 },
-    "*-up1-south": { "base": "block/stainedglass/1x2/stainedglass_up1", "rotateY": 180 },
-    "*-up1-west": { "base": "block/stainedglass/1x2/stainedglass_up1", "rotateY": 90 },
-    "*-down-north": { "base": "block/stainedglass/1x2/stainedglass_down", "rotateY": 0 },
-    "*-down-east": { "base": "block/stainedglass/1x2/stainedglass_down", "rotateY": 270 },
-    "*-down-south": { "base": "block/stainedglass/1x2/stainedglass_down", "rotateY": 180 },
-    "*-down-west": { "base": "block/stainedglass/1x2/stainedglass_down", "rotateY": 90 },
-    "*-hg-north": { "base": "block/stainedglass/2x2/stainedglass_hg", "rotateY": 0 },
-    "*-hg-east": { "base": "block/stainedglass/2x2/stainedglass_hg", "rotateY": 270 },
-    "*-hg-south": { "base": "block/stainedglass/2x2/stainedglass_hg", "rotateY": 180 },
-    "*-hg-west": { "base": "block/stainedglass/2x2/stainedglass_hg", "rotateY": 90 },
-    "*-hd-north": { "base": "block/stainedglass/2x2/stainedglass_hd", "rotateY": 0 },
-    "*-hd-east": { "base": "block/stainedglass/2x2/stainedglass_hd", "rotateY": 270 },
-    "*-hd-south": { "base": "block/stainedglass/2x2/stainedglass_hd", "rotateY": 180 },
-    "*-hd-west": { "base": "block/stainedglass/2x2/stainedglass_hd", "rotateY": 90 },
-    "*-bg-north": { "base": "block/stainedglass/2x2/stainedglass_bg", "rotateY": 0 },
-    "*-bg-east": { "base": "block/stainedglass/2x2/stainedglass_bg", "rotateY": 270 },
-    "*-bg-south": { "base": "block/stainedglass/2x2/stainedglass_bg", "rotateY": 180 },
-    "*-bg-west": { "base": "block/stainedglass/2x2/stainedglass_bg", "rotateY": 90 },
-    "*-bd-north": { "base": "block/stainedglass/2x2/stainedglass_bd", "rotateY": 0 },
-    "*-bd-east": { "base": "block/stainedglass/2x2/stainedglass_bd", "rotateY": 270 },
-    "*-bd-south": { "base": "block/stainedglass/2x2/stainedglass_bd", "rotateY": 180 },
-    "*-bd-west": { "base": "block/stainedglass/2x2/stainedglass_bd", "rotateY": 90 }
+    "*": { 
+      "base": "block/stainedglass/{format}/{part}_{design}",
+      "rotateYByType": {
+        "*-north": 0, "*-east": 270, "*-south": 180, "*-west": 90
+      }
+    }
   },
   "texturesByType": {
-    "*-polishedrock-square-*": {
+    "*-polishedrock-1w-single-*": {
       "stone": { "base": "game:block/stone/polishedrock/{rock}" },
-      "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" }
-    },
-    "*-polishedrock-round-*": {
-      "stone": { "base": "game:block/stone/polishedrock/{rock}" },
-      "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" }
-    },
-    "*-square-*": {
-      "stone": { "base": "game:block/stone/{style}/{rock}1" },
-      "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" }
-    },
-    "*-round-*": {
-      "stone": { "base": "game:block/stone/{style}/{rock}1" },
-      "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x1/stainedglass" }
-    },
-
-    "*-polishedrock-up-*": {
-      "stone": { "base": "game:block/stone/polishedrock/{rock}" },
-      "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
-    },
-    "*-polishedrock-down-*": {
-      "stone": { "base": "game:block/stone/polishedrock/{rock}" },
-      "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
-    },
-    "*-up-*": {
-      "stone": { "base": "game:block/stone/{style}/{rock}1" },
-      "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
-    },
-    "*-up1-*": {
-      "stone": { "base": "game:block/stone/{style}/{rock}1" },
-      "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
-    },
-    "*-down-*": {
-      "stone": { "base": "game:block/stone/{style}/{rock}1" },
-      "lead": { "base": "game:block/metal/plate/lead" },
-      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
-    },
-
-    "*-polishedrock-*": {
-      "stone": { "base": "game:block/stone/polishedrock/{rock}" },
-      "lead": { "base": "game:block/metal/plate/lead" },
       "stainedglass": { "base": "block/stainedglass/{pattern}/2x2/stainedglass" }
     },
-    "*": {
+    "*-polishedrock-1w-top-*": {
+      "stone": { "base": "game:block/stone/polishedrock/{rock}" },
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
+    },
+    "*-polishedrock-1w-bottom-*": {
+      "stone": { "base": "game:block/stone/polishedrock/{rock}" },
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
+    },
+    "*-polishedrock-1w-mid-*": {
+      "stone": { "base": "game:block/stone/polishedrock/{rock}" },
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
+    },
+    "*-polishedrock-2w_left-*": {
+      "stone": { "base": "game:block/stone/polishedrock/{rock}" },
+      "stainedglass": { "base": "block/stainedglass/{pattern}/2x2/stainedglass" }
+    },
+    "*-polishedrock-2w_right-*": {
+      "stone": { "base": "game:block/stone/polishedrock/{rock}" },
+      "stainedglass": { "base": "block/stainedglass/{pattern}/2x2/stainedglass" }
+    },
+    "*-1w-single-*": {
       "stone": { "base": "game:block/stone/{style}/{rock}1" },
-      "lead": { "base": "game:block/metal/plate/lead" },
+      "stainedglass": { "base": "block/stainedglass/{pattern}/2x2/stainedglass" }
+    },
+    "*-1w-top-*": {
+      "stone": { "base": "game:block/stone/{style}/{rock}1" },
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
+    },
+    "*-1w-bottom-*": {
+      "stone": { "base": "game:block/stone/{style}/{rock}1" },
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
+    },
+    "*-1w-mid-*": {
+      "stone": { "base": "game:block/stone/{style}/{rock}1" },
+      "stainedglass": { "base": "block/stainedglass/{pattern}/1x2/stainedglass" }
+    },
+    "*-2w_left-*": {
+      "stone": { "base": "game:block/stone/{style}/{rock}1" },
+      "stainedglass": { "base": "block/stainedglass/{pattern}/2x2/stainedglass" }
+    },
+    "*-2w_right-*": {
+      "stone": { "base": "game:block/stone/{style}/{rock}1" },
       "stainedglass": { "base": "block/stainedglass/{pattern}/2x2/stainedglass" }
     }
   },

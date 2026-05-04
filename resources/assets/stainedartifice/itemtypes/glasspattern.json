@@ -4,33 +4,42 @@
   "variantgroups": [
     {
       "code": "design",
-      "states": [ "celestialcompass",  "emerald", "mechanicaldecay", "greatmechanism", "dawnclockarboreous", "voidstainedeternity", "anachronicfragment" ]
+      "states": [ "celestialcompass",  "emerald", "mechanicaldecay", "greatmechanism", "dawnclockarboreous", "voidstainedeternity", "anachronicfragment", "embersmith" ]
     },
     {
       "code": "form",
-      "states": [ "1x1", "1x2" ]
+      "states": [ "square", "rectangle" ]
     }
   ],
   "skipVariants": [
-    "*-celestialcompass-1x2",
-    "*-greatmechanism-1x2",
-    "*-dawnclockarboreous-1x2",
-    "*-voidstainedeternity-1x2",
-    "*-mechanicaldecay-1x1",
-    "*-anachronicfragment-1x1"
+    "*-celestialcompass-rectangle",
+    "*-greatmechanism-rectangle",
+    "*-dawnclockarboreous-rectangle",
+    "*-voidstainedeternity-rectangle",
+    "*-mechanicaldecay-square",
+    "*-anachronicfragment-square",
+    "*-embersmith-square"
   ],
   "shapebytype": {
-    "*-1x1": { "base": "item/pattern-paper-1x1" },
-    "*-1x2": { "base": "item/pattern-paper-1x2" }
+    "*-square": { "base": "item/pattern-paper-square" },
+    "*-rectangle": { "base": "item/pattern-paper-rectangle" }
   },
-  "textures": {
+  "texturesByType": {
+    "*-square": {
       "paper": {"base": "item/resources/paper/{form}/paper"},
       "stainedglass": { 
         "base": "item/resources/paper/{form}/paper",
-        "overlays": ["block/stainedglass/{design}/{form}/stainedglass"]
+        "overlays": ["block/stainedglass/{design}/2x2/stainedglass"]
       }
     },
-  
+    "*-rectangle": {
+      "paper": {"base": "item/resources/paper/{form}/paper"},
+      "stainedglass": { 
+        "base": "item/resources/paper/{form}/paper",
+        "overlays": ["block/stainedglass/{design}/1x2/stainedglass"]
+      }
+    }
+  },
   
   "creativeinventory": {
     "general": [ "*" ],
@@ -57,11 +66,11 @@
     "groundable": true,
     "moldrackable": true,
     "onmoldrackTransformByType": {
-      "*-1x1": {
+      "*-square": {
         "translation": { "x": 0.87, "y": 0, "z": 0 },
         "rotation": { "x": 0, "y": 0, "z": -83 }
       },
-      "*-1x2": {
+      "*-rectangle": {
         "translation": { "x": 0.94, "y": 0, "z": 0 },
         "rotation": { "x": 0, "y": 0, "z": -80 }
       },

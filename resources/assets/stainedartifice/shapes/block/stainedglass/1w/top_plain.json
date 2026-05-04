@@ -1,0 +1,136 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/Origin/Cadre_Bas,Root/Origin/Cadre_int_bas",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 32,
+	"textureSizes": {
+		"stone": [16,16],
+		"stainedglass": [16,32]
+	},
+	"textures": {
+		},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 6.0 ],
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationZ": -180.0,
+			"faces": {
+				"north": { "texture": "#stone", "uv": [ 0.0, 0.0, 0.25, 0.25 ], "enabled": false },
+				"east": { "texture": "#stone", "uv": [ 0.0, 0.0, 6.0, 0.25 ], "enabled": false },
+				"south": { "texture": "#stone", "uv": [ 0.75, 0.0, 1.0, 0.25 ], "enabled": false },
+				"west": { "texture": "#stone", "uv": [ 0.0, -0.25, 6.0, 0.0 ], "enabled": false },
+				"up": { "texture": "#stone", "uv": [ 0.0, 0.0, 0.25, 6.0 ], "enabled": false },
+				"down": { "texture": "#stone", "uv": [ 0.0, 0.0, 0.25, 6.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Cadre_Bas",
+					"from": [ 0.0, 0.0, 6.0 ],
+					"to": [ 16.0, 1.0, 10.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 6.0 ],
+					"faces": {
+						"north": { "texture": "#stone", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+						"east": { "texture": "#stone", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+						"south": { "texture": "#stone", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+						"west": { "texture": "#stone", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+						"up": { "texture": "#stone", "uv": [ 0.0, 0.0, 16.0, 4.0 ] },
+						"down": { "texture": "#stone", "uv": [ 0.0, 0.0, 16.0, 4.0 ] }
+					},
+					"children": [
+						{
+							"name": "Cadre_Gauche",
+							"from": [ 0.0, 1.0, 0.0 ],
+							"to": [ 1.0, 16.0, 4.0 ],
+							"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+								"east": { "texture": "#stone", "uv": [ 0.0, 0.0, 4.0, 15.0 ] },
+								"south": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+								"west": { "texture": "#stone", "uv": [ 0.0, 0.0, 4.0, 15.0 ] },
+								"up": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 4.0 ] },
+								"down": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 4.0 ] }
+							}
+						},
+						{
+							"name": "Cadre_Droite",
+							"from": [ 15.0, 1.0, 0.0 ],
+							"to": [ 16.0, 16.0, 4.0 ],
+							"rotationOrigin": [ 15.0, 1.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+								"east": { "texture": "#stone", "uv": [ 0.0, 0.0, 4.0, 15.0 ] },
+								"south": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 15.0 ] },
+								"west": { "texture": "#stone", "uv": [ 0.0, 0.0, 4.0, 15.0 ] },
+								"up": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 4.0 ] },
+								"down": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 4.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Cadre_int_bas",
+					"from": [ 1.0, 1.0, 7.0 ],
+					"to": [ 15.0, 2.0, 9.0 ],
+					"rotationOrigin": [ 1.0, 1.0, 7.0 ],
+					"faces": {
+						"north": { "texture": "#stone", "uv": [ 0.0, 0.0, 14.0, 1.0 ] },
+						"east": { "texture": "#stone", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+						"south": { "texture": "#stone", "uv": [ 0.0, 0.0, 14.0, 1.0 ] },
+						"west": { "texture": "#stone", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+						"up": { "texture": "#stone", "uv": [ 0.0, 0.0, 14.0, 2.0 ] },
+						"down": { "texture": "#stone", "uv": [ 0.0, 0.0, 14.0, 2.0 ] }
+					},
+					"children": [
+						{
+							"name": "Cadre_int_gauche",
+							"from": [ 0.0, 1.0, 0.0 ],
+							"to": [ 1.0, 15.0, 2.0 ],
+							"rotationOrigin": [ 0.0, 12.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 14.0 ] },
+								"east": { "texture": "#stone", "uv": [ 0.0, 0.0, 2.0, 14.0 ] },
+								"south": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 14.0 ] },
+								"west": { "texture": "#stone", "uv": [ 0.0, 0.0, 2.0, 14.0 ] },
+								"up": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+								"down": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 2.0 ] }
+							}
+						},
+						{
+							"name": "Cadre_int_droite",
+							"from": [ 13.0, 1.0, 0.0 ],
+							"to": [ 14.0, 15.0, 2.0 ],
+							"rotationOrigin": [ 13.0, 12.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 14.0 ] },
+								"east": { "texture": "#stone", "uv": [ 0.0, 0.0, 2.0, 14.0 ] },
+								"south": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 14.0 ] },
+								"west": { "texture": "#stone", "uv": [ 0.0, 0.0, 2.0, 14.0 ] },
+								"up": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+								"down": { "texture": "#stone", "uv": [ 0.0, 0.0, 1.0, 2.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Verre",
+					"from": [ 2.0, 2.0, 7.9 ],
+					"to": [ 14.0, 16.0, 8.1 ],
+					"renderPass": 3,
+					"rotationOrigin": [ 8.0, 2.0, 7.9 ],
+					"faces": {
+						"north": { "texture": "#stainedglass", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+						"east": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 0.25, 14.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0], "enabled": false },
+						"south": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 0.25, 14.0 ], "enabled": false },
+						"up": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 12.0, 0.25 ], "enabled": false },
+						"down": { "texture": "#stainedglass", "uv": [ 0.0, 0.0, 12.0, 0.25 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

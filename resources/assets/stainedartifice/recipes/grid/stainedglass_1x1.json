@@ -5,7 +5,7 @@
       "R": { "type": "block", "code": "game:cobblestone-{rock}" },
       "G": { "type": "block", "code": "game:glassslab-plain-down-free" },
       "L": { "type": "item", "code": "lead-cames" },
-      "P": { "type": "item", "code": "glasspattern-{pattern}-1x1", "isTool": true }
+      "P": { "type": "item", "code": "glasspattern-{pattern}-square", "isTool": true }
     },
     "allowedVariants": {
       "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
@@ -15,7 +15,7 @@
     "height": 2,
     "output": {
       "type": "block",
-      "code": "stainedglass-{pattern}-{rock}-cobblestone-square-north",
+      "code": "stainedglass-{pattern}-{rock}-cobblestone-1w-single-plain-north",
       "quantity": 1
     }
   },
@@ -25,7 +25,7 @@
       "R": { "type": "block", "code": "game:rockpolished-{rock}" },
       "G": { "type": "block", "code": "game:glassslab-plain-down-free" },
       "L": { "type": "item", "code": "lead-cames" },
-      "P": { "type": "item", "code": "glasspattern-{pattern}-1x1", "isTool": true }
+      "P": { "type": "item", "code": "glasspattern-{pattern}-square", "isTool": true }
     },
     "allowedVariants": {
       "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
@@ -35,7 +35,7 @@
     "height": 2,
     "output": {
       "type": "block",
-      "code": "stainedglass-{pattern}-{rock}-polishedrock-square-north",
+      "code": "stainedglass-{pattern}-{rock}-polishedrock-1w-single-plain-north",
       "quantity": 1
     }
   },
@@ -45,7 +45,7 @@
       "R": { "type": "block", "code": "game:stonebricks-{rock}" },
       "G": { "type": "block", "code": "game:glassslab-plain-down-free" },
       "L": { "type": "item", "code": "lead-cames" },
-      "P": { "type": "item", "code": "glasspattern-{pattern}-1x1", "isTool": true }
+      "P": { "type": "item", "code": "glasspattern-{pattern}-square", "isTool": true }
     },
     "allowedVariants": {
       "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
@@ -55,17 +55,19 @@
     "height": 2,
     "output": {
       "type": "block",
-      "code": "stainedglass-{pattern}-{rock}-brick-square-north",
+      "code": "stainedglass-{pattern}-{rock}-brick-1w-single-plain-north",
       "quantity": 1
     }
   },
+  
+  
   {
     "ingredientPattern": "GR,LP",
     "ingredients": {
       "R": { "type": "block", "code": "game:cobblestone-{rock}" },
       "G": { "type": "block", "code": "game:glassslab-plain-down-free" },
       "L": { "type": "item", "code": "lead-cames" },
-      "P": { "type": "item", "code": "glasspattern-{pattern}-1x1", "isTool": true }
+      "P": { "type": "item", "code": "glasspattern-{pattern}-square", "isTool": true }
     },
     "allowedVariants": {
       "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
@@ -75,7 +77,7 @@
     "height": 2,
     "output": {
       "type": "block",
-      "code": "stainedglass-{pattern}-{rock}-cobblestone-round-north",
+      "code": "stainedglass-{pattern}-{rock}-cobblestone-1w-single-circular-north",
       "quantity": 1
     }
   },
@@ -85,7 +87,7 @@
       "R": { "type": "block", "code": "game:rockpolished-{rock}" },
       "G": { "type": "block", "code": "game:glassslab-plain-down-free" },
       "L": { "type": "item", "code": "lead-cames" },
-      "P": { "type": "item", "code": "glasspattern-{pattern}-1x1", "isTool": true }
+      "P": { "type": "item", "code": "glasspattern-{pattern}-square", "isTool": true }
     },
     "allowedVariants": {
       "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
@@ -95,7 +97,7 @@
     "height": 2,
     "output": {
       "type": "block",
-      "code": "stainedglass-{pattern}-{rock}-polishedrock-round-north",
+      "code": "stainedglass-{pattern}-{rock}-polishedrock-1w-single-circular-north",
       "quantity": 1
     }
   },
@@ -105,7 +107,7 @@
       "R": { "type": "block", "code": "game:stonebricks-{rock}" },
       "G": { "type": "block", "code": "game:glassslab-plain-down-free" },
       "L": { "type": "item", "code": "lead-cames" },
-      "P": { "type": "item", "code": "glasspattern-{pattern}-1x1", "isTool": true }
+      "P": { "type": "item", "code": "glasspattern-{pattern}-square", "isTool": true }
     },
     "allowedVariants": {
       "rock": [ "andesite", "granite", "basalt", "chalk", "claystone", "bauxite", "chert", "conglomerate", "limestone", "phyllite", "sandstone", "shale" ],
@@ -115,7 +117,7 @@
     "height": 2,
     "output": {
       "type": "block",
-      "code": "stainedglass-{pattern}-{rock}-brick-round-north",
+      "code": "stainedglass-{pattern}-{rock}-brick-1w-single-circular-north",
       "quantity": 1
     }
   }
