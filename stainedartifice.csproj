@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>Stained Artifice</ModName>
     <ModType>content</ModType>
-    <ModVersion>1.0.0-rc.2</ModVersion>
+    <ModVersion>1.0.0-rc.3</ModVersion>
     <ModId>stainedartifice</ModId>
     <Description>Elevate your builds with Stained Artifice. This mod introduces intricate, leaded stained glass windows designed for elegant medieval-style architecture. Bring new light and prestige to your homes with authentic, artisan-crafted decorative panes.</Description>
     <Side>universal</Side>
