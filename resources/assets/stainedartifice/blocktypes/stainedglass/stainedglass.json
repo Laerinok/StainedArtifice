@@ -56,18 +56,16 @@
 
     "stainedglass-*-*-*-2w_left-*-circular-*",
     "stainedglass-*-*-*-2w_left-*-gothic-*",
-    "stainedglass-*-*-*-2w_left-*-romanesque-*",
-    "stainedglass-*-*-*-2w_left-single-plain-*",
-    "stainedglass-*-*-*-2w_left-mid-plain-*",
+    "stainedglass-*-*-*-2w_left-single-*-*",
+    "stainedglass-*-*-*-2w_left-mid-*-*",
     "stainedglass-anachronicfragment-*-*-2w_left-*-*-*",
     "stainedglass-embersmith-*-*-2w_left-*-*-*",
     "stainedglass-mechanicaldecay-*-*-2w_left-*-*-*",
 
     "stainedglass-*-*-*-2w_right-*-circular-*",
     "stainedglass-*-*-*-2w_right-*-gothic-*",
-    "stainedglass-*-*-*-2w_right-*-romanesque-*",
-    "stainedglass-*-*-*-2w_right-single-plain-*",
-    "stainedglass-*-*-*-2w_right-mid-plain-*",
+    "stainedglass-*-*-*-2w_right-single-*-*",
+    "stainedglass-*-*-*-2w_right-mid-*-*",
     "stainedglass-anachronicfragment-*-*-2w_right-*-*-*",
     "stainedglass-embersmith-*-*-2w_right-*-*-*",
     "stainedglass-mechanicaldecay-*-*-2w_right-*-*-*"
