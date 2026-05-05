@@ -59,7 +59,7 @@
     }
   ],
 
-  "durability": 64,
+  "durability": 16,
   "maxstacksize": 1,
   "selectionbox": {
     "x1": 0.1875,

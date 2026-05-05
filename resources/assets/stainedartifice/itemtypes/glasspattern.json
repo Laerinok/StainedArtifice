@@ -61,7 +61,8 @@
       }
     }
   ],
-  "durability": 20,
+  "durability": 8,
+  "maxstacksize": 8,
   "attributes": {
     "groundable": true,
     "moldrackable": true,
@@ -85,7 +86,6 @@
       "scale": 1
     }
   },
-  "maxstacksize": 1,
   "guiTransform": {
     "rotation": { "x": 90, "y": 180, "z": 0 },
     "origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
