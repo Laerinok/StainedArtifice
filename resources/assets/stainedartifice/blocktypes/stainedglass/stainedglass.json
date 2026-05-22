@@ -1,6 +1,6 @@
 {
   "code": "stainedglass",
-  "class": "Block",
+  "class": "BlockRainAmbient",
   "variantgroups": [
     { 
       "code": "pattern",
